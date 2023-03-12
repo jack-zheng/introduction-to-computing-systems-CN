@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "extract-chi"
+version = "0.1.0"
+description = "write scripts to extract chinese txt from pdf"
+authors = ["jack-zheng <lanmolei0124@163.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple/"
